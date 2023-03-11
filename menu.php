@@ -9,9 +9,9 @@
         }
         public function mainMenuRegistered(){
             $response = "CON Reply with \n";
-            $response .= "1.Give name\n";
+            $response .= "1.Give personal details\n";
             $response .= "2.Give ID number\n";
-            $response .= "3.Number of dependants";
+            $response .= "3.Check registration status";
             echo $response; 
         }
 
