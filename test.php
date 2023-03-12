@@ -6,7 +6,7 @@
 	$phoneNumber = $_POST["phoneNumber"];
 	$text        = $_POST["text"];
 
-    $isRegistered = false;
+    $isRegistered = true;
     $menu = new Menu($text,$sessionId);
 
     if ($text == "" && !$isRegistered) {
